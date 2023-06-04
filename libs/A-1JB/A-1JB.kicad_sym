@@ -1,0 +1,72 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "A-1JB" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.62616 5.08411 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "A-1JB" (id 1) (at -7.6328 -7.6328 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "AMPHENOL_A-1JB" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Amphenol" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "A-1JB_0_0"
+      (circle (center 0.0 0.0) (radius 5.08)
+        (stroke (width 0.254)) (fill (type none))
+      )
+      (circle (center 0.0 0.0) (radius 2.54)
+        (stroke (width 0.0)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy 0.0 -10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -10.16) (xy -2.54 -10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -10.16) (xy 2.54 -10.16)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 -11.43) (xy 0.635 -11.43)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -10.795) (xy 1.27 -10.795)) (stroke (width 0.254))
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 7.62)
+        (name "SIGNAL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "SIGNAL"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -10.16 0) (length 0)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GND1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -10.16 0) (length 0)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "GND2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -10.16 0) (length 0)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "OPTIONAL_GND"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

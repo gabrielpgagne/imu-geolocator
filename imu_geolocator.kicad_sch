@@ -2128,13 +2128,10 @@
   (no_connect (at 223.52 102.87) (uuid 0d7628d0-656a-4315-9edf-676d6480b6a3))
   (no_connect (at 76.2 143.51) (uuid 43c02c03-5bff-490c-90b0-67a6bffe082b))
   (no_connect (at 223.52 100.33) (uuid 5dec8331-0f5d-420a-b343-21e3dcae196b))
-  (no_connect (at 143.51 190.5) (uuid 5e2283e4-3e44-49b8-b1d3-ba6e04878a71))
   (no_connect (at 76.2 140.97) (uuid 77ee06af-45c3-4df0-b50f-b259075a4aed))
   (no_connect (at 76.2 135.89) (uuid 9dca1acc-5264-4ac7-a8fb-14ee5d77d798))
-  (no_connect (at 137.16 184.15) (uuid aa380918-f747-4a4d-b09e-35312b65efaf))
   (no_connect (at 223.52 120.65) (uuid b389060a-7e6b-4aee-829c-8ddf62d095a6))
   (no_connect (at 76.2 138.43) (uuid bb4f37b6-ca9f-4132-9894-40db961bb9fb))
-  (no_connect (at 149.86 184.15) (uuid f3a67e90-6103-40ff-98b0-b047a3a4ba30))
 
   (wire (pts (xy 142.24 92.71) (xy 146.05 92.71))
     (stroke (width 0) (type default))
@@ -2147,6 +2144,14 @@
   (wire (pts (xy 142.24 82.55) (xy 143.51 82.55))
     (stroke (width 0) (type default))
     (uuid 03f8b8c6-fd1f-4142-a4c2-cc1060c86622)
+  )
+  (wire (pts (xy 120.65 184.15) (xy 121.92 184.15))
+    (stroke (width 0) (type default))
+    (uuid 0435f6b6-ced2-4a16-a763-300599d5af91)
+  )
+  (wire (pts (xy 209.55 138.43) (xy 210.82 138.43))
+    (stroke (width 0) (type default))
+    (uuid 0cd20e53-a66d-44df-a7c6-a19377012d36)
   )
   (wire (pts (xy 245.11 82.55) (xy 243.84 82.55))
     (stroke (width 0) (type default))
@@ -2164,7 +2169,7 @@
     (stroke (width 0) (type default))
     (uuid 0fd4a837-ea19-43b5-978e-ae153e106df0)
   )
-  (wire (pts (xy 132.08 132.08) (xy 137.16 132.08))
+  (wire (pts (xy 134.62 132.08) (xy 139.7 132.08))
     (stroke (width 0) (type default))
     (uuid 10a75098-ac73-4d35-9f3a-88eb17a98219)
   )
@@ -2192,13 +2197,21 @@
     (stroke (width 0) (type default))
     (uuid 1bc39eab-f902-40a0-b8e7-826312336d22)
   )
-  (wire (pts (xy 209.55 142.24) (xy 210.8014 142.24))
+  (wire (pts (xy 209.55 140.97) (xy 210.82 140.97))
     (stroke (width 0) (type default))
-    (uuid 1f382a6a-afd1-4b47-b18d-6a5fe44f22f3)
+    (uuid 237b9c3c-0a34-441b-9a95-8f1f47338856)
   )
   (wire (pts (xy 71.12 173.99) (xy 71.12 176.53))
     (stroke (width 0) (type default))
     (uuid 23bb75b7-86ef-47e9-aa2d-300527cccf89)
+  )
+  (wire (pts (xy 152.4 184.15) (xy 153.67 184.15))
+    (stroke (width 0) (type default))
+    (uuid 255fb65d-655d-411a-8e25-da7d40639bfd)
+  )
+  (wire (pts (xy 129.54 184.15) (xy 139.7 184.15))
+    (stroke (width 0) (type default))
+    (uuid 262aa08d-09f6-42dc-8ec0-2545e22dead4)
   )
   (wire (pts (xy 66.04 73.66) (xy 71.12 73.66))
     (stroke (width 0) (type default))
@@ -2228,7 +2241,7 @@
     (stroke (width 0) (type default))
     (uuid 37773ca3-2e24-4ae7-ad51-ea505d6ce7b4)
   )
-  (wire (pts (xy 143.51 176.53) (xy 143.51 179.07))
+  (wire (pts (xy 146.05 176.53) (xy 146.05 179.07))
     (stroke (width 0) (type default))
     (uuid 39b8044c-e0ab-4a3d-9b23-2a8d343b76c0)
   )
@@ -2248,6 +2261,10 @@
     (stroke (width 0) (type default))
     (uuid 41636a61-59bb-4a0d-b2f2-0110696a3895)
   )
+  (wire (pts (xy 146.05 190.5) (xy 157.48 190.5))
+    (stroke (width 0) (type default))
+    (uuid 419c22ce-d566-4b91-a69f-ba82e8d3294c)
+  )
   (wire (pts (xy 151.13 55.88) (xy 151.13 49.53))
     (stroke (width 0) (type default))
     (uuid 4497cf72-e949-4145-b520-71a74c540b5d)
@@ -2264,7 +2281,7 @@
     (stroke (width 0) (type default))
     (uuid 4cba3bd0-1fce-4da4-99a3-b27f5bc73144)
   )
-  (wire (pts (xy 149.86 146.05) (xy 151.13 146.05))
+  (wire (pts (xy 152.4 146.05) (xy 153.67 146.05))
     (stroke (width 0) (type default))
     (uuid 4ded93eb-6394-4a9e-9817-5610007a40de)
   )
@@ -2279,6 +2296,10 @@
   (wire (pts (xy 43.18 33.02) (xy 39.37 33.02))
     (stroke (width 0) (type default))
     (uuid 5d067dd3-5562-412b-ae06-a383de841769)
+  )
+  (wire (pts (xy 266.7 148.59) (xy 267.97 148.59))
+    (stroke (width 0) (type default))
+    (uuid 612bcfe9-2bae-41ac-b206-f49a394ecb78)
   )
   (wire (pts (xy 222.25 95.25) (xy 223.52 95.25))
     (stroke (width 0) (type default))
@@ -2328,7 +2349,7 @@
     (stroke (width 0) (type default))
     (uuid 762e5834-0e12-41d5-8b4e-bb3d1320105d)
   )
-  (wire (pts (xy 132.08 146.05) (xy 137.16 146.05))
+  (wire (pts (xy 134.62 146.05) (xy 139.7 146.05))
     (stroke (width 0) (type default))
     (uuid 7891e24b-4c5b-457e-9c76-ba0cac56204c)
   )
@@ -2356,7 +2377,7 @@
     (stroke (width 0) (type default))
     (uuid 864f37d7-1f4b-45c8-a38a-755d7b22b762)
   )
-  (wire (pts (xy 143.51 179.07) (xy 154.94 179.07))
+  (wire (pts (xy 146.05 179.07) (xy 157.48 179.07))
     (stroke (width 0) (type default))
     (uuid 87231acc-4db3-49f8-86fd-df75c8ec9cba)
   )
@@ -2380,7 +2401,7 @@
     (stroke (width 0) (type default))
     (uuid 9bd83d91-70b3-424d-9c70-5f621b61f398)
   )
-  (wire (pts (xy 143.51 152.4) (xy 143.51 157.48))
+  (wire (pts (xy 146.05 152.4) (xy 146.05 157.48))
     (stroke (width 0) (type default))
     (uuid 9c89a313-4aca-4698-b9cc-f9fe8ab5673d)
   )
@@ -2388,7 +2409,7 @@
     (stroke (width 0) (type default))
     (uuid 9cc278f4-0d63-411e-a826-a152d5991e36)
   )
-  (wire (pts (xy 149.86 170.18) (xy 151.13 170.18))
+  (wire (pts (xy 152.4 170.18) (xy 153.67 170.18))
     (stroke (width 0) (type default))
     (uuid 9e611fe0-0358-4664-b4ba-8bf5c365b9b2)
   )
@@ -2412,7 +2433,7 @@
     (stroke (width 0) (type default))
     (uuid a6a6705c-0665-4840-95cf-5331c70a7059)
   )
-  (wire (pts (xy 132.08 170.18) (xy 137.16 170.18))
+  (wire (pts (xy 134.62 170.18) (xy 139.7 170.18))
     (stroke (width 0) (type default))
     (uuid a7911038-734e-441a-81bc-db56d1aeb9a7)
   )
@@ -2428,7 +2449,7 @@
     (stroke (width 0) (type default))
     (uuid accfe28d-8d57-4b6b-855e-3bfbd1aa0a30)
   )
-  (wire (pts (xy 149.86 132.08) (xy 151.13 132.08))
+  (wire (pts (xy 152.4 132.08) (xy 153.67 132.08))
     (stroke (width 0) (type default))
     (uuid ae61a72c-3024-45eb-9944-aaeadf232960)
   )
@@ -2444,7 +2465,7 @@
     (stroke (width 0) (type default))
     (uuid b70a69b9-c53e-4bf4-be58-f2017d365980)
   )
-  (wire (pts (xy 209.55 148.59) (xy 210.82 148.59))
+  (wire (pts (xy 209.55 152.4) (xy 210.82 152.4))
     (stroke (width 0) (type default))
     (uuid bb8f97a6-4380-4c37-b866-6de2c2151552)
   )
@@ -2488,7 +2509,7 @@
     (stroke (width 0) (type default))
     (uuid d2846e9b-1e45-4372-b731-0e76b884d515)
   )
-  (wire (pts (xy 209.55 154.94) (xy 210.82 154.94))
+  (wire (pts (xy 209.55 157.48) (xy 210.82 157.48))
     (stroke (width 0) (type default))
     (uuid d2c93070-090a-4b3d-98cb-46cca1c4975e)
   )
@@ -2496,9 +2517,13 @@
     (stroke (width 0) (type default))
     (uuid d3acfd38-6ef0-4f84-ba58-1fbf110d2725)
   )
-  (wire (pts (xy 143.51 138.43) (xy 143.51 140.97))
+  (wire (pts (xy 146.05 138.43) (xy 146.05 140.97))
     (stroke (width 0) (type default))
     (uuid d59758ac-5ef8-435c-8f15-ecd7d79dd716)
+  )
+  (wire (pts (xy 209.55 147.32) (xy 210.8014 147.32))
+    (stroke (width 0) (type default))
+    (uuid d5b9198c-9623-4a33-9e33-94b21c4faf31)
   )
   (wire (pts (xy 146.05 52.07) (xy 146.05 55.88))
     (stroke (width 0) (type default))
@@ -2512,7 +2537,7 @@
     (stroke (width 0) (type default))
     (uuid dd3baa11-206a-46e4-a4b7-e623574ba076)
   )
-  (wire (pts (xy 143.51 140.97) (xy 154.94 140.97))
+  (wire (pts (xy 146.05 140.97) (xy 157.48 140.97))
     (stroke (width 0) (type default))
     (uuid dd8740f9-74ea-4dca-a3e1-acc097ab8491)
   )
@@ -2544,11 +2569,11 @@
     (stroke (width 0) (type default))
     (uuid e7e3572b-e778-4a12-9b5f-6a5d388f602c)
   )
-  (wire (pts (xy 209.55 157.48) (xy 210.82 157.48))
+  (wire (pts (xy 209.55 160.02) (xy 210.82 160.02))
     (stroke (width 0) (type default))
     (uuid ec33e943-7c0e-4744-8937-6401b6c94a20)
   )
-  (wire (pts (xy 143.51 157.48) (xy 154.94 157.48))
+  (wire (pts (xy 146.05 157.48) (xy 157.48 157.48))
     (stroke (width 0) (type default))
     (uuid ed186d06-75d9-471d-9391-aee3c21a28d0)
   )
@@ -2564,7 +2589,7 @@
     (stroke (width 0) (type default))
     (uuid eeb288f6-843b-40a5-9317-fa01f3b5523a)
   )
-  (wire (pts (xy 266.7 146.05) (xy 270.51 146.05))
+  (wire (pts (xy 266.7 146.05) (xy 267.97 146.05))
     (stroke (width 0) (type default))
     (uuid f76405b5-1912-47b3-a88d-7320a0e70e42)
   )
@@ -2596,7 +2621,7 @@
     (fill (type none))
     (uuid 2b08c06c-c992-4ab8-b384-3d994057dc13)
   )
-  (rectangle (start 118.11 102.87) (end 172.72 196.85)
+  (rectangle (start 118.11 102.87) (end 171.45 196.85)
     (stroke (width 0.5) (type default))
     (fill (type none))
     (uuid 30a3ae1f-b2cd-4a1d-a1e0-e0e48a36f80d)
@@ -2626,15 +2651,19 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 09bad282-279e-4ce4-85a6-837ba6f3dc27)
   )
+  (text "TODO: Add RF Shield" (at 191.77 34.29 0)
+    (effects (font (size 5 5) (thickness 1) bold (color 255 66 70 1)) (justify left bottom))
+    (uuid 0e36a27b-da52-4715-8033-e8e3cafbe3d7)
+  )
   (text "A" (at 269.24 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1a9932c5-7751-42a9-a713-dbb6792ae011)
   )
-  (text "RGB LED" (at 119.38 107.95 0)
+  (text "RGB LED + RF CTRL" (at 119.38 107.95 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 1ef54912-9e3b-46c6-bf3c-922b8bb3a3e6)
   )
-  (text "IMU Localizer" (at 179.07 177.8 0)
+  (text "IMU Geolocator" (at 179.07 177.8 0)
     (effects (font (size 5 5)) (justify left bottom))
     (uuid 2fa6ca20-8d2b-41cd-9597-e2348fa0139f)
   )
@@ -2688,11 +2717,11 @@
     (uuid eeae490b-75d1-495c-9335-cff9bfc7f23e)
   )
 
-  (label "RFI_P" (at 210.82 154.94 0) (fields_autoplaced)
+  (label "RFI_P" (at 210.82 157.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0097033d-8fc5-443e-a09c-57416e8b2b54)
   )
-  (label "MCU_LED_R" (at 154.94 140.97 0) (fields_autoplaced)
+  (label "MCU_LED_R" (at 157.48 140.97 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0464c84f-31c4-4cde-a089-12af2ed46537)
   )
@@ -2704,7 +2733,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0e23fd59-bc72-4518-a540-f0eb200248f6)
   )
-  (label "LED_G" (at 124.46 146.05 180) (fields_autoplaced)
+  (label "LED_G" (at 127 146.05 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 13ea0d10-6503-4bb8-9a4c-48446febc5bf)
   )
@@ -2720,7 +2749,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 259f5875-8e8a-4f8e-8bd5-5a5f82a0929e)
   )
-  (label "MCU_LED_G" (at 154.94 157.48 0) (fields_autoplaced)
+  (label "MCU_LED_G" (at 157.48 157.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2cda9829-4a2a-40ce-914a-1487c139061e)
   )
@@ -2747,6 +2776,10 @@
   (label "VDDRF1V55" (at 222.25 107.95 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3511dec1-3ebf-4613-8f32-f9d20758d54e)
+  )
+  (label "RF_CTRL" (at 210.82 138.43 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 38918105-4913-4f35-98f4-b2eb25be27e8)
   )
   (label "UART_TX" (at 267.97 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2796,6 +2829,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 73b8d70a-9ec7-4732-9d81-1a2b6e9783c0)
   )
+  (label "RF_nCTRL" (at 129.54 184.15 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 73f47c5c-88dc-4752-b1ae-3ebbc9890fe7)
+  )
   (label "SWDIO" (at 149.86 44.45 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 77e23fda-a5bb-433a-ad65-57740736aa06)
@@ -2804,7 +2841,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 79375a36-b5f0-4181-b172-16f3a25e6c00)
   )
-  (label "LED_B" (at 124.46 170.18 180) (fields_autoplaced)
+  (label "RF_CTRL" (at 157.48 190.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 81086aa5-be1d-450d-b9f6-d6dd7c71266f)
+  )
+  (label "LED_B" (at 127 170.18 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8386f56b-b208-4130-835a-5c0be7622690)
   )
@@ -2836,7 +2877,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b2ea9617-6045-4679-9e84-d31b6f35ff20)
   )
-  (label "SDA" (at 270.51 146.05 0) (fields_autoplaced)
+  (label "SDA" (at 267.97 146.05 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b4cb3668-95df-449f-95cb-9d0a66031954)
   )
@@ -2848,7 +2889,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c3792509-602e-4386-826e-db43883d8333)
   )
-  (label "RFI_N" (at 210.82 157.48 0) (fields_autoplaced)
+  (label "RFI_N" (at 210.82 160.02 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c77e7c61-48db-45d9-a282-2a96096ae2ef)
   )
@@ -2864,11 +2905,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d74db1d0-8331-4bb0-9b6f-b16ddec5b1bb)
   )
-  (label "MCU_LED_B" (at 154.94 179.07 0) (fields_autoplaced)
+  (label "MCU_LED_B" (at 157.48 179.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid d77ad367-ead1-473c-ba81-f886f3a94d18)
   )
-  (label "LED_R" (at 124.46 132.08 180) (fields_autoplaced)
+  (label "LED_R" (at 127 132.08 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid de6c90b3-ab00-4872-9a11-09695d2bc12d)
   )
@@ -2880,7 +2921,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e8ba85bc-71fe-44e4-9c1f-27cb3164c5fb)
   )
-  (label "RFO_HP" (at 210.82 148.59 0) (fields_autoplaced)
+  (label "RFO_HP" (at 210.82 152.4 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e939ac9d-65b9-4e5e-859e-a61bec765474)
   )
@@ -2896,28 +2937,61 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ee04f571-d561-471f-bae9-6a54323188c9)
   )
-  (label "VR_PA" (at 210.8014 142.24 0) (fields_autoplaced)
+  (label "VR_PA" (at 210.8014 147.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid efd2e64c-e0f3-4635-afb9-9f30480469fa)
+  )
+  (label "RF_nCTRL" (at 210.82 140.97 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f908d0b8-a9cf-4110-a8d1-d87e994c449a)
   )
   (label "SDA" (at 143.51 82.55 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid faf18ba2-f7f6-43b4-a20f-533498711702)
   )
+  (label "RF_CTRL" (at 267.97 148.59 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fe5a35f8-93eb-4b8d-bb21-35f617d751d1)
+  )
 
-  (symbol (lib_id "SSM6N44FE,LM:SSM6N44FE") (at 143.51 138.43 0) (unit 1)
+  (symbol (lib_id "power:VCC") (at 120.65 184.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0147dd80-13e4-411e-af7b-49022cd25903)
+    (property "Reference" "#PWR051" (at 120.65 187.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 120.65 179.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 120.65 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 120.65 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4aa510c7-834a-43a4-9b8e-b65da7c37282))
+    (instances
+      (project "imu_geolocator"
+        (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
+          (reference "#PWR051") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "SSM6N44FE,LM:SSM6N44FE") (at 146.05 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08fe0935-33c6-4caf-a87b-ffee84ffe0d6)
-    (property "Reference" "NMOS1" (at 137.16 125.73 0)
+    (property "Reference" "NMOS1" (at 139.7 125.73 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "SSM6N44FE" (at 139.7 156.21 0)
+    (property "Value" "SSM6N44FE" (at 142.24 156.21 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "ES6" (at 140.97 137.16 0)
+    (property "Footprint" "SSM6N44FE,LM:ES6" (at 143.51 137.16 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "SSM6N44FE" (at 140.97 137.16 90)
+    (property "Datasheet" "SSM6N44FE" (at 143.51 137.16 90)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid b6f5fcb1-751e-40e1-b023-aaad9ecd021e))
@@ -2927,7 +3001,7 @@
     (pin "5" (uuid 5757dffb-81e6-4e9a-93c9-a46b678857a0))
     (pin "6" (uuid a4af72f0-781b-48e0-9ca2-971965420abc))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "NMOS1") (unit 1)
         )
@@ -2952,7 +3026,7 @@
     )
     (pin "1" (uuid 55fd495a-ef1e-40e2-b49a-763f6fc506a1))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR023") (unit 1)
         )
@@ -2969,7 +3043,7 @@
     (property "Value" "EAST1616RGBB2" (at 138.43 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "EAST1616RGBB2" (at 157.48 209.22 0)
+    (property "Footprint" "EAST1616RGBB2:EAST1616RGBB2" (at 157.48 209.22 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://everlightamericas.com/index.php?controller=attachment&id_attachment=2426" (at 157.48 309.22 0)
@@ -2992,7 +3066,7 @@
     (pin "3" (uuid 8cb7f877-8626-443b-8886-7bf9fca834b3))
     (pin "4" (uuid a840d042-e0f6-4b50-957a-102ebc68140c))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "LED1") (unit 1)
         )
@@ -3000,19 +3074,19 @@
     )
   )
 
-  (symbol (lib_id "SSM6N44FE,LM:SSM6N44FE") (at 143.51 176.53 0) (unit 1)
+  (symbol (lib_id "SSM6N44FE,LM:SSM6N44FE") (at 146.05 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 108f2835-bbe9-4fac-a786-772362deb032)
-    (property "Reference" "NMOS2" (at 137.16 163.83 0)
+    (property "Reference" "NMOS2" (at 139.7 163.83 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Value" "SSM6N44FE" (at 139.7 194.31 0)
+    (property "Value" "SSM6N44FE" (at 142.24 194.31 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "ES6" (at 140.97 175.26 0)
+    (property "Footprint" "SSM6N44FE,LM:ES6" (at 143.51 175.26 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "SSM6N44FE" (at 140.97 175.26 90)
+    (property "Datasheet" "SSM6N44FE" (at 143.51 175.26 90)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (pin "1" (uuid c40dbd2f-8d1e-4b7e-8910-b51766e0edb5))
@@ -3022,7 +3096,7 @@
     (pin "5" (uuid bb2ec8ca-99a9-49a2-9b52-771643a7e4f4))
     (pin "6" (uuid 48d4960b-19bb-4c3e-994a-2fedba3e548c))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "NMOS2") (unit 1)
         )
@@ -3047,7 +3121,7 @@
     )
     (pin "1" (uuid fa6664c3-cb0a-4674-a957-81efa4168fed))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR015") (unit 1)
         )
@@ -3079,7 +3153,7 @@
     (pin "4" (uuid 7aaa6225-2d1b-4a36-a6d2-0fc4d2ddc142))
     (pin "5" (uuid f9d038c7-2fde-4507-92b4-01adf1bf35d1))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "U2") (unit 1)
         )
@@ -3104,7 +3178,7 @@
     )
     (pin "1" (uuid a349ca13-4ea5-4b81-a014-39fe756b054b))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR021") (unit 1)
         )
@@ -3129,7 +3203,7 @@
     )
     (pin "1" (uuid 288ac4ca-5f55-40da-897c-ca0f7bd8e593))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR017") (unit 1)
         )
@@ -3154,7 +3228,7 @@
     )
     (pin "1" (uuid 14ecdbfb-3ed4-46da-b768-422e73fad106))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR033") (unit 1)
         )
@@ -3179,7 +3253,7 @@
     )
     (pin "1" (uuid e7bf7f22-8faa-41b6-ac82-cad76e544fab))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR029") (unit 1)
         )
@@ -3187,25 +3261,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 128.27 146.05 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 130.81 146.05 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 20492870-59a9-492d-91d6-63002555b47b)
-    (property "Reference" "R4" (at 128.27 143.51 90)
+    (property "Reference" "R4" (at 130.81 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "220" (at 128.27 148.59 90)
+    (property "Value" "220" (at 130.81 148.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 128.27 147.828 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 130.81 147.828 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 128.27 146.05 0)
+    (property "Datasheet" "~" (at 130.81 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bf658c25-bd29-4d32-a5d2-8c68640c97d9))
     (pin "2" (uuid 5843fff1-7746-488e-a1aa-6184d2545259))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "R4") (unit 1)
         )
@@ -3213,25 +3287,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 128.27 170.18 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 130.81 170.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28883da5-20d7-4774-a38c-38d3aa652ec1)
-    (property "Reference" "R5" (at 128.27 167.64 90)
+    (property "Reference" "R5" (at 130.81 167.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "220" (at 128.27 172.72 90)
+    (property "Value" "220" (at 130.81 172.72 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 128.27 171.958 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 130.81 171.958 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 128.27 170.18 0)
+    (property "Datasheet" "~" (at 130.81 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3d7ce667-e782-4df2-bb91-9ffea870c82e))
     (pin "2" (uuid 7c3106c2-1b7e-4df7-9824-8b6f5f678164))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "R5") (unit 1)
         )
@@ -3256,7 +3330,7 @@
     )
     (pin "1" (uuid 098ed0e0-6186-4b26-bbe5-296ba6198ce4))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR02") (unit 1)
         )
@@ -3281,7 +3355,7 @@
     )
     (pin "1" (uuid 9246ccb0-75df-41bb-844d-e22c6f6272aa))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR030") (unit 1)
         )
@@ -3306,7 +3380,7 @@
     )
     (pin "1" (uuid a21ebf10-851a-440f-87cd-8a117d91a6f2))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR06") (unit 1)
         )
@@ -3331,7 +3405,7 @@
     )
     (pin "1" (uuid 5910942f-86a7-429d-9e31-5ee9a708933e))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR032") (unit 1)
         )
@@ -3356,9 +3430,34 @@
     )
     (pin "1" (uuid 4a6bb6b9-f6e9-4381-979b-c2ec66ecbf86))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR026") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 153.67 184.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 42e03227-1c9b-4dcc-820e-2407a94400f6)
+    (property "Reference" "#PWR050" (at 153.67 190.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 153.67 189.23 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 153.67 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 153.67 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e23b9f5b-1eb7-4f65-8fcf-b80c5c679f0b))
+    (instances
+      (project "imu_geolocator"
+        (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -3381,7 +3480,7 @@
     )
     (pin "1" (uuid 82dd0ac4-4e37-49c9-820d-5074286e8bc1))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR028") (unit 1)
         )
@@ -3406,7 +3505,7 @@
     )
     (pin "1" (uuid 45e8ccf1-6a50-431e-8b93-bc4bd9bd09cd))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR09") (unit 1)
         )
@@ -3423,7 +3522,7 @@
     (property "Value" "0.1u" (at 248.92 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 246.0752 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 246.0752 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 63.5 0)
@@ -3432,7 +3531,7 @@
     (pin "1" (uuid 1b66a702-b73b-4a5c-bd2d-e3933379bc0a))
     (pin "2" (uuid 9c19904a-2d27-49e0-b654-4d5a9a9656f5))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C3") (unit 1)
         )
@@ -3461,7 +3560,7 @@
     (pin "1" (uuid ecb2376f-6306-4639-9570-0f0003b32b24))
     (pin "2" (uuid 81e17050-a8e7-4389-bd51-617df4db39fe))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "D2") (unit 1)
         )
@@ -3478,7 +3577,7 @@
     (property "Value" "0.1u" (at 78.74 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 75.8952 176.53 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 75.8952 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 74.93 172.72 0)
@@ -3487,7 +3586,7 @@
     (pin "1" (uuid c7ef325e-d110-4f75-89d1-9719ae6e5ca8))
     (pin "2" (uuid 02ce2d39-b8a9-41d0-90a1-9878f10360b4))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C10") (unit 1)
         )
@@ -3512,7 +3611,7 @@
     )
     (pin "1" (uuid 576ec6b6-c7e8-4bbd-acf2-dcf012aa10b6))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR05") (unit 1)
         )
@@ -3529,7 +3628,7 @@
     (property "Value" "0.1u" (at 237.49 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 234.6452 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 234.6452 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 233.68 63.5 0)
@@ -3538,7 +3637,7 @@
     (pin "1" (uuid d27c7773-92c1-40c0-90f8-bcfa5528685f))
     (pin "2" (uuid c733f9c0-bd2b-45ea-8551-4e37fb53f8ef))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C2") (unit 1)
         )
@@ -3563,7 +3662,7 @@
     )
     (pin "1" (uuid a7a7b57d-e9ff-4d95-a663-c89641e92ec5))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR025") (unit 1)
         )
@@ -3588,7 +3687,7 @@
     )
     (pin "1" (uuid d55de26f-a46b-431d-b34e-2f8ea6cdcc00))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR019") (unit 1)
         )
@@ -3613,7 +3712,7 @@
     )
     (pin "1" (uuid 8dc96b22-ad56-4d8c-a741-c7a5e2c8dade))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR08") (unit 1)
         )
@@ -3630,7 +3729,7 @@
     (property "Value" "4.7u" (at 214.63 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 211.7852 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 211.7852 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 210.82 63.5 0)
@@ -3639,7 +3738,7 @@
     (pin "1" (uuid e76796ea-266b-42f4-a00e-81f911fd4b8f))
     (pin "2" (uuid 8db9ecf4-eeba-4ff7-9b3f-22f940ef7059))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C5") (unit 1)
         )
@@ -3665,7 +3764,7 @@
     (pin "1" (uuid ed20f50a-62c5-49b5-9da2-5f5a3d020fd6))
     (pin "2" (uuid 5271204b-c846-4ffe-a06a-d6824cdab81f))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "D1") (unit 1)
         )
@@ -3673,24 +3772,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 151.13 170.18 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 153.67 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72dce770-bf91-4b8e-ab4d-5addcfe7ace5)
-    (property "Reference" "#PWR024" (at 151.13 176.53 0)
+    (property "Reference" "#PWR024" (at 153.67 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 151.13 175.26 0)
+    (property "Value" "GND" (at 153.67 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 170.18 0)
+    (property "Footprint" "" (at 153.67 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 151.13 170.18 0)
+    (property "Datasheet" "" (at 153.67 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 69f15b4a-60ce-4f75-a408-bc9c8a7211ac))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR024") (unit 1)
         )
@@ -3715,7 +3814,7 @@
     )
     (pin "1" (uuid 16fa1697-b091-4b91-99f8-33ad887cca9b))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR07") (unit 1)
         )
@@ -3740,7 +3839,7 @@
     )
     (pin "1" (uuid 46252ffb-4c33-4106-9b24-7e5e40fa477a))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR010") (unit 1)
         )
@@ -3757,7 +3856,7 @@
     (property "Value" "0.47u" (at 205.74 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 202.8952 106.68 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 202.8952 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.93 102.87 0)
@@ -3766,7 +3865,7 @@
     (pin "1" (uuid 1cb4d7f6-b233-4bb6-89d2-94139c1cb606))
     (pin "2" (uuid 07a561b9-5c3e-4f89-8e80-7b4625ed0ce9))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C7") (unit 1)
         )
@@ -3791,7 +3890,7 @@
     )
     (pin "1" (uuid b254f7dd-4401-4a83-a6ac-bfa97567da05))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR027") (unit 1)
         )
@@ -3816,7 +3915,7 @@
     )
     (pin "1" (uuid 0b813855-abe6-4391-82b8-b46f89ae3793))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR036") (unit 1)
         )
@@ -3824,24 +3923,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 151.13 132.08 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 153.67 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 801e96d5-fb10-4e99-9618-7397f174fe33)
-    (property "Reference" "#PWR038" (at 151.13 138.43 0)
+    (property "Reference" "#PWR038" (at 153.67 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 151.13 137.16 0)
+    (property "Value" "GND" (at 153.67 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 132.08 0)
+    (property "Footprint" "" (at 153.67 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 151.13 132.08 0)
+    (property "Datasheet" "" (at 153.67 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5a6b02ea-6301-4525-8ad1-6643993f0ba2))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR038") (unit 1)
         )
@@ -3858,7 +3957,7 @@
     (property "Value" "0.1u" (at 99.06 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 96.2152 130.81 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 96.2152 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 127 0)
@@ -3867,7 +3966,7 @@
     (pin "1" (uuid 6a512e87-55a0-41ee-81a1-beead474a60d))
     (pin "2" (uuid 59b04540-39e1-4a6e-8f5a-a09d53e973ba))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C12") (unit 1)
         )
@@ -3884,7 +3983,7 @@
     (property "Value" "10u" (at 97.79 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 97.79 77.47 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 97.79 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 77.47 0)
@@ -3893,7 +3992,7 @@
     (pin "1" (uuid a1dfa23e-bcd1-43db-8211-d3fba2fbad7a))
     (pin "2" (uuid 9f95f458-ef78-4d25-9bb9-3b7af61f9479))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "L3") (unit 1)
         )
@@ -3910,7 +4009,7 @@
     (property "Value" "Conn_01x08_Pin" (at 137.795 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 137.16 85.09 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" (at 137.16 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 137.16 85.09 0)
@@ -3925,7 +4024,7 @@
     (pin "7" (uuid b1d01f5c-905b-4456-8d48-1155526217f9))
     (pin "8" (uuid 032e01d8-33db-4963-9e7c-6af9d9c4e70a))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "J2") (unit 1)
         )
@@ -3942,7 +4041,7 @@
     (property "Value" "2.2u" (at 109.22 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 106.3752 130.81 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 106.3752 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 127 0)
@@ -3951,7 +4050,7 @@
     (pin "1" (uuid a8bcc738-9a23-4d55-bd65-43d3a5b69e21))
     (pin "2" (uuid ca1d78c9-3966-481a-a913-4b4c082771d8))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C13") (unit 1)
         )
@@ -3976,7 +4075,7 @@
     )
     (pin "1" (uuid 14dd418c-ef9b-448c-b731-8fd8b20e361e))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR039") (unit 1)
         )
@@ -4001,7 +4100,7 @@
     )
     (pin "1" (uuid e0b1d979-3f79-465e-a7b5-9a0ed768ee3f))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR018") (unit 1)
         )
@@ -4026,7 +4125,7 @@
     )
     (pin "1" (uuid 2915e547-7893-494a-82be-6e87e78f0db2))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR03") (unit 1)
         )
@@ -4043,7 +4142,7 @@
     (property "Value" "10u" (at 62.23 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 62.23 73.66 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 62.23 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 62.23 73.66 0)
@@ -4052,7 +4151,7 @@
     (pin "1" (uuid 833b181b-54e5-4e76-b5d2-9b924f73dfa9))
     (pin "2" (uuid bf79fe02-5258-400d-94ac-70460d6ec000))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "L2") (unit 1)
         )
@@ -4069,7 +4168,7 @@
     (property "Value" "10n" (at 88.9 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 86.0552 130.81 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 86.0552 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 85.09 127 0)
@@ -4078,7 +4177,7 @@
     (pin "1" (uuid b003451a-25f2-4792-bdd1-ee51eaaac3c1))
     (pin "2" (uuid 5e3bbb4b-66f8-4506-9d09-0e1d533cd799))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C11") (unit 1)
         )
@@ -4095,7 +4194,7 @@
     (property "Value" "4.7u" (at 226.06 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 223.2152 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 223.2152 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 63.5 0)
@@ -4104,7 +4203,7 @@
     (pin "1" (uuid 2193be11-0fee-4c14-b430-1feda12fd1c2))
     (pin "2" (uuid 073aa2e0-195d-4de1-b31b-a5ba57392690))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C1") (unit 1)
         )
@@ -4121,7 +4220,7 @@
     (property "Value" "1u" (at 271.78 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 268.9352 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 268.9352 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 267.97 63.5 0)
@@ -4130,7 +4229,7 @@
     (pin "1" (uuid 2fd1247e-f41f-4879-b467-dcb744d83915))
     (pin "2" (uuid 671c0d27-e4ef-48c9-a8d5-7a6f87fe555b))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C4") (unit 1)
         )
@@ -4155,7 +4254,7 @@
     )
     (pin "1" (uuid f8694a1b-c079-4c5d-ad94-eac49920b582))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR014") (unit 1)
         )
@@ -4172,7 +4271,7 @@
     (property "Value" "ICM-42688-P" (at 50.8 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PQFN50P300X250X97-14N" (at 50.8 135.89 0)
+    (property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N" (at 50.8 135.89 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/ICM-42688-P_DS_Rev1.2.pdf" (at 50.8 135.89 0)
@@ -4208,7 +4307,7 @@
     (pin "8" (uuid 34b84158-5cd2-473d-ba96-e358c5294171))
     (pin "9" (uuid af9a2a6f-5fbb-4ce6-afd9-69fd0b271cf7))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "U3") (unit 1)
         )
@@ -4233,7 +4332,7 @@
     )
     (pin "1" (uuid 1c7c35bc-9e71-4355-8a23-a8b0929d1c38))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR011") (unit 1)
         )
@@ -4250,7 +4349,7 @@
     (property "Value" "AK09918C" (at 50.8 162.56 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "BGA4_WL-CSP_AKM" (at 30.48 170.18 0)
+    (property "Footprint" "AK09918C:BGA4_WL-CSP_AKM" (at 30.48 170.18 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://www.akm.com/content/dam/documents/products/electronic-compass/ak09918c/ak09918c-en-datasheet.pdf" (at 30.48 170.18 0)
@@ -4260,11 +4359,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid f4de4238-d75d-4bed-8fa7-204b3117fd4c))
-    (pin "A2" (uuid 4e8d52b6-47d9-4f4a-a222-3fe64e98a630))
     (pin "B1" (uuid 95e61aa7-e3cf-4254-adf3-1dc9009f3e01))
     (pin "B2" (uuid 66fad0dc-71fb-4d52-b375-883e0377fea7))
+    (pin "A2" (uuid 4e8d52b6-47d9-4f4a-a222-3fe64e98a630))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "U4") (unit 1)
         )
@@ -4289,7 +4388,7 @@
     )
     (pin "1" (uuid bb9de788-6370-469b-a282-c2f3bc98a4c1))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR031") (unit 1)
         )
@@ -4328,7 +4427,7 @@
     (pin "2" (uuid 8679c741-b73c-466a-aee8-5638e83015aa))
     (pin "3" (uuid fdad5e96-1518-4889-a48f-43a5b8154b5c))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "Q1") (unit 1)
         )
@@ -4353,9 +4452,35 @@
     )
     (pin "1" (uuid ba657353-126c-4042-9b92-a97150e6b859))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 125.73 184.15 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d693b756-dcf0-45b7-837c-eed84264344e)
+    (property "Reference" "R6" (at 125.73 181.61 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10K" (at 125.73 186.69 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 125.73 185.928 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 125.73 184.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c2d3c946-bdc7-47a2-a1f4-bee5a724a308))
+    (pin "2" (uuid 7b81427b-4e84-4e02-aadb-c188c8378262))
+    (instances
+      (project "imu_geolocator"
+        (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4370,7 +4495,7 @@
     (property "Value" "15u" (at 203.2 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 201.93 91.44 0)
+    (property "Footprint" "Inductor_SMD:L_0603_1608Metric" (at 201.93 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 201.93 91.44 0)
@@ -4379,7 +4504,7 @@
     (pin "1" (uuid 24babfdc-9193-49da-a2d4-a206d5103a3c))
     (pin "2" (uuid 2fac4b9f-c60e-4017-b440-5ae2d6735c97))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "L1") (unit 1)
         )
@@ -4396,7 +4521,7 @@
     (property "Value" "Conn_01x05_Pin" (at 137.795 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 137.16 46.99 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" (at 137.16 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 137.16 46.99 0)
@@ -4408,7 +4533,7 @@
     (pin "4" (uuid d021e76f-df38-4801-b726-8232acffba39))
     (pin "5" (uuid 39f1fc0e-cbf1-4d56-9b5c-6184bcf1ffae))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "J1") (unit 1)
         )
@@ -4433,7 +4558,7 @@
     )
     (pin "1" (uuid 66eb3715-a217-406f-8e10-14388f020305))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR01") (unit 1)
         )
@@ -4462,7 +4587,7 @@
     (pin "1" (uuid 1f38e2f4-9849-4996-a307-7d28ae11188b))
     (pin "2" (uuid 30dc388e-7805-4217-9e64-c012504b03d2))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "F1") (unit 1)
         )
@@ -4487,7 +4612,7 @@
     )
     (pin "1" (uuid 6bdae54f-d9ec-4d84-8fb2-90e8811634bf))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR022") (unit 1)
         )
@@ -4512,7 +4637,7 @@
     )
     (pin "1" (uuid bddf6322-ac10-4d07-8703-5f464b6ca3e7))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR012") (unit 1)
         )
@@ -4537,7 +4662,7 @@
     )
     (pin "1" (uuid 28b313d5-403c-463a-99da-9bc060acee93))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR013") (unit 1)
         )
@@ -4554,7 +4679,7 @@
     (property "Value" "10K" (at 68.58 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 64.262 40.64 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 64.262 40.64 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 40.64 0)
@@ -4563,7 +4688,7 @@
     (pin "1" (uuid 9aae245d-7889-4532-9be3-6f90fa5d1d14))
     (pin "2" (uuid 3cbb3e26-4ae3-47aa-b886-48c3f1d3d674))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "R2") (unit 1)
         )
@@ -4588,7 +4713,7 @@
     )
     (pin "1" (uuid 5def872e-0653-4349-83af-e3f556115f28))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR035") (unit 1)
         )
@@ -4605,7 +4730,7 @@
     (property "Value" "BU2032SM-JJ-GTR" (at 24.13 27.94 0)
       (effects (font (size 1.524 1.524)) (justify left))
     )
-    (property "Footprint" "BU2032SM-JJ-GTR_MPD" (at 29.21 33.02 0)
+    (property "Footprint" "BU2032SM-JJ-GTR:BU2032SM-JJ-GTR_MPD" (at 29.21 33.02 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "BU2032SM-JJ-GTR" (at 29.21 33.02 0)
@@ -4614,7 +4739,7 @@
     (pin "1" (uuid 49eac747-2bf2-4178-abb9-889a4e784a4a))
     (pin "2" (uuid 3a6219f1-d4c8-4ee4-9f02-2a8925054301))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "B1") (unit 1)
         )
@@ -4631,7 +4756,7 @@
     (property "Value" "10K" (at 146.05 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 141.732 35.56 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 141.732 35.56 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 143.51 35.56 0)
@@ -4640,7 +4765,7 @@
     (pin "1" (uuid bfaf80b0-a503-441f-8b14-8a3e25ec31e6))
     (pin "2" (uuid 9bd8c5d9-162b-4667-b2b4-1850dd99e8db))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "R1") (unit 1)
         )
@@ -4657,7 +4782,7 @@
     (property "Value" "10n" (at 261.62 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 258.7752 67.31 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 258.7752 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 257.81 63.5 0)
@@ -4666,7 +4791,7 @@
     (pin "1" (uuid b768fe74-abc2-4bed-a4ab-017da89d3178))
     (pin "2" (uuid e487d524-31d1-4db1-826f-5ffe62ac3b3d))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C6") (unit 1)
         )
@@ -4683,7 +4808,7 @@
     (property "Value" "10u" (at 74.93 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 72.0852 81.28 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 72.0852 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 71.12 77.47 0)
@@ -4692,7 +4817,7 @@
     (pin "1" (uuid 8e8e2587-0591-4870-b9a2-fa052ceab788))
     (pin "2" (uuid 343242d4-2098-4df9-8bf2-a259ad180359))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C8") (unit 1)
         )
@@ -4709,7 +4834,7 @@
     (property "Value" "10u" (at 36.83 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 33.9852 81.28 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 33.9852 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 33.02 77.47 0)
@@ -4718,7 +4843,7 @@
     (pin "1" (uuid 229771a4-e445-4838-b9c8-9b3ae446632b))
     (pin "2" (uuid 07fac987-4f6a-4a3d-8a84-a6ea9903a5fd))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "C9") (unit 1)
         )
@@ -4743,7 +4868,7 @@
     )
     (pin "1" (uuid 15f98f06-bbc0-46ce-84a6-75e803663031))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR020") (unit 1)
         )
@@ -4751,25 +4876,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 128.27 132.08 90) (unit 1)
+  (symbol (lib_id "Device:R") (at 130.81 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb594ec4-47d2-48f9-9760-cd953a6a994b)
-    (property "Reference" "R3" (at 128.27 129.54 90)
+    (property "Reference" "R3" (at 130.81 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "330" (at 128.27 134.62 90)
+    (property "Value" "330" (at 130.81 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 128.27 133.858 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 130.81 133.858 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 128.27 132.08 0)
+    (property "Datasheet" "~" (at 130.81 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6b3cf7a2-f8ba-4282-be7b-af526b6a3333))
     (pin "2" (uuid 0c947966-99a3-4c77-a7bc-0a73abb6fbda))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "R3") (unit 1)
         )
@@ -4845,7 +4970,7 @@
     (pin "8" (uuid a59f74a0-e94a-48d8-8d06-aa09c2ce6a31))
     (pin "9" (uuid 0a2c3d22-764a-4e9b-a73d-a751dd5f51e0))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "U1") (unit 1)
         )
@@ -4853,24 +4978,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 151.13 146.05 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 153.67 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbdbefca-ac79-4748-bb50-33a4fcf437b7)
-    (property "Reference" "#PWR037" (at 151.13 152.4 0)
+    (property "Reference" "#PWR037" (at 153.67 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 151.13 151.13 0)
+    (property "Value" "GND" (at 153.67 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 151.13 146.05 0)
+    (property "Footprint" "" (at 153.67 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 151.13 146.05 0)
+    (property "Datasheet" "" (at 153.67 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ff727e01-d472-48b6-9bf1-00c65b7118ed))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR037") (unit 1)
         )
@@ -4895,7 +5020,7 @@
     )
     (pin "1" (uuid a7caf4f6-cd9c-4274-a511-e2c24911b178))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR016") (unit 1)
         )
@@ -4920,7 +5045,7 @@
     )
     (pin "1" (uuid 22cf62ed-f0f1-415e-8ce7-10e182bec20d))
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480"
           (reference "#PWR04") (unit 1)
         )
@@ -4938,24 +5063,32 @@
     (property "Sheetfile" "rf.kicad_sch" (at 186.69 163.1446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "RFI_P" input (at 209.55 154.94 0)
+    (pin "RFI_P" input (at 209.55 157.48 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2e3dbdd9-0545-4796-86c4-53a963f8b558)
     )
-    (pin "RFO_HP" input (at 209.55 148.59 0)
+    (pin "RFO_HP" input (at 209.55 152.4 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d69ab84a-dc0f-47da-b390-f05b7b85ff6d)
     )
-    (pin "RFI_N" input (at 209.55 157.48 0)
+    (pin "RFI_N" input (at 209.55 160.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid e66684a5-c176-4ed9-a81b-255fd5d70fbe)
     )
-    (pin "VR_PA" input (at 209.55 142.24 0)
+    (pin "VR_PA" input (at 209.55 147.32 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 1e116698-8c5b-4d9d-96c8-67c676080810)
     )
+    (pin "RF_CTRL" input (at 209.55 138.43 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid e3d72beb-5a0e-4edb-b73d-9bfcdc1c60ff)
+    )
+    (pin "RF_nCTRL" input (at 209.55 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid d53f9648-e47e-4036-9949-aaddabba6334)
+    )
     (instances
-      (project "imu_locator"
+      (project "imu_geolocator"
         (path "/4c40c178-fae3-49cf-8fcd-ba633f808480" (page "2"))
       )
     )

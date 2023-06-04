@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CG2214M6-C2
+D RF Switch SPDT 50MHz to 3GHz 20dB 6-Pin LeadLess Mini-Mold T/R
+K
+F http://www.cel.com/pdf/datasheets/CG2214M6.pdf
+$ENDCMP
+#
+#End Doc Library
