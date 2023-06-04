@@ -232,7 +232,7 @@
     (property "ki_description" "LED Tri-Color 468nm/518nm/632nm 4-Pin SMD-B T/R")
     (path "/0c7adf51-4ef9-4a18-b4b8-af4d16e33693")
     (attr smd)
-    (fp_text reference "LED1" (at 4.826 1.524) (layer "F.SilkS")
+    (fp_text reference "LED1" (at 4.826 1.524) (layer "F.SilkS") hide
         (effects (font (size 1.27 1.27) (thickness 0.254)))
       (tstamp e74903ce-c75c-4e56-8dc2-4ce0cc175a9c)
     )
