@@ -1,1 +1,6 @@
 imu_geolocator-backups/*
+*.xml
+output/*
+#auto_saved_files#
+*-cache
+_autosave*
